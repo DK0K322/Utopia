@@ -3,7 +3,7 @@
 
 <p align="center"><h1 align="center">Utopia Beta</h1></p>
 
-<p align="center">Is a revolutionary pr‍o‍x‍‍y network that can u‍‍n‍b‍‍l‍o‍‍c‍‍k nearly any website. You can use this proxy network anywhere to browse the in‍te‍‍rn‍‍et fr‍ee‍ly without having to worry about any web restrictions such as internet cencorship or website blockers.</p>
+<p align="center">is a revolutionary pr‍o‍x‍‍y network that can u‍‍n‍b‍‍l‍o‍‍c‍‍k nearly any website. You can use this proxy network anywhere to browse the in‍te‍‍rn‍‍et fr‍ee‍ly without having to worry about any web restrictions such as internet cencorship or website blockers.</p>
 
 ## Features
 - Ultraviolet, Rammerhead, and Womginx
@@ -35,28 +35,36 @@
 
 ## Table of Contents
 - [Installation And Setup](#installation-and-setup)
-  - [Basic Guide](#basic-guide)
+  - [Setup Buttons](#setup-buttons)
+  - [Basic Guide](#basic-setup-guide)
   - [Replit Setup Guide](#replit-setup-guide)
 - [Author](#author)
 
 # Installation and Setup
 
-Installation of Utopia is simple. You can find a Tl;DR of the installation and setup process just below. If you are unfamiliar with the "standard" installation process, look a bit farther down for a more comprehensive installation and setup guide.
+Installation of Utopia is simple. You can find a basic platform-wide installation and setup process just below. If you are using replit, the corresponding installation and setup guide is a little bit farther down.
 
-## Basic Guide
+## Setup Buttons
+
+<a href="https://replit.com/github/DK0K322/Utopia"><img src="/run-on-replit.png"></a><br>*More will be added soon, for now use the basic setup guide if you do not use Replit.*
+
+## Basic Setup Guide
+To setup this app on a platform of your choice, either:
+
+a) Click the corresponding setup button above or,<br>b) Run the following commands:
 
 ```sh
 $ git clone https://github.com/DK0K322/Utopia --recursive
-$ cd Ultraviolet-Node
+$ cd Utopia
 $ npm install
 $ npm start
 ```
 
 ## Replit Setup Guide
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/github/DK0K322/Utopia)
-To setup on Replit, first click on the "Run on Replit" button. After loading into your repl, click on the green "Run" button. Alternatively, run the following commands:
+To setup on Replit, first click on the "Run on Replit" button in the [setup buttons](#setup-buttons) section. After loading into your repl, click on the green "Run" button. Alternatively, run the following commands:
 
 ```sh
+$ git clone https://github.com/DK0K322/Utopia
 $ npm install
 $ chmod +x main.sh
 $ ./main.sh
@@ -64,13 +72,11 @@ $ ./main.sh
 
 You will only have to run the second command once. It just allows `main.sh` to be executed. By running `main.sh`, you will update any submodules and will start the app.
 
-**Note**: If you choose not to use `main.sh`, but would rather just run all commands manually, please note that you will have to manually install submodules by running `git update submodules --init`. Without it, `static` will not be installed, and that is a required directory.
 
 # Author
 
-Doğukan Koç (Creator of Utopia ID and Utopia Beta, Ultraviolet, Rammerhead, and Womginx.)
-
+Doğukan Koç (Creator of Utopia, Utopia ID, Utopia Alpha, and Utopia Beta.)
+<br><br><br><br><br>
 #
 
 *©2022 Doğukan Koç*
-
