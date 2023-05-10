@@ -1,0 +1,2 @@
+// Change Title and Icon
+javascript:var title2 = prompt("New Title"); title = title2; if (title != null); {document.title = title}; void 0; javascript:(function() {    var link2 = prompt("Icon URL"); link = document.querySelector("link[rel*='icon']") || document.createElement('link');    link.type = 'image/x-icon';    link.rel = 'shortcut icon';    link.href = link2;    document.getElementsByTagName('head')[0].appendChild(link);})();
